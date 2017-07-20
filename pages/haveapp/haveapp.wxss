@@ -1,0 +1,33 @@
+/* haveapp.wxss */
+.container{
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container1{
+  width: 100%;
+}
+.view1{
+  background-color:whitesmoke;
+  font-size: 25rpx;
+  height: 70rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-bottom: 20rpx;
+}
+.view2{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rpx; 
+  background-color: white; 
+}
+.view2 text{
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 35rpx;
+}

@@ -1,0 +1,74 @@
+.container{
+  width: 100%;
+  background-color:whitesmoke;
+}
+.container1{
+  width: 750rpx;
+  height: 100rpx;
+  background-color: white; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.selectlist{
+  display: flex;
+  justify-content: center;
+}
+.picker1{
+  color:#FDBE41;
+  font-size: 30rpx;
+  text-align: center;
+}
+.text{
+  font-size: 30rpx;
+}
+.view2{
+  width: 100%;
+  display: flex;
+  background-color: white;
+  margin-top: 20rpx;
+}
+.titleview{
+  width: 65%;
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+.titlename{
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+  margin-left: 20rpx;
+}
+.titleinfo{
+  font-size: 20rpx;
+  margin-top:10rpx;
+  margin-left: 20rpx;
+}
+.buttom-view{
+  background-color: red;
+  display: flex;
+  width: 35%;
+  
+}
+.buttom1{
+  background-color: RGBA(77, 191, 69, 1.00);
+  width: 60%;
+  line-height: 150rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: white;
+}
+.buttom2{
+  background-color: white;
+  width: 40%;
+  line-height: 150rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: RGBA(77, 191, 69, 1.00);
+}
+.hover{
+  background-color: gainsboro;
+}

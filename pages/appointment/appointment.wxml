@@ -1,0 +1,64 @@
+<view class="container">
+    <view class="item1" bindtap="choosetime" hover-class="green_hover">
+      <view class="item1-text1">
+              <text>预约时间</text>
+      </view>
+      <block class="item1-time" wx:if="{{showconf ==false}}">
+              <view class="item1-time">
+                    <text >请选择预约时间</text>
+              </view>
+              <view class="item1-icon">
+                    <text>></text>
+              </view>
+      </block>
+      <block class="item1-time" wx:if="{{showconf ==true}}">
+              <view class="item1-time">
+                    <text>{{monthinfo}}月{{dayinfo}}日    {{timeinfo}}</text>
+              </view>
+
+      </block>
+    </view>
+
+
+
+
+
+    <view class="item2">
+          <view class="item2-text1">
+              <text>姓名</text>
+          </view>
+          <view class="item2-input1">
+              <input bindconfirm="inputname" class="item2-input1" placeholder="请输入姓名"/>
+          </view>
+          <view class="item2-text2">
+              <text>手机号码</text>
+          </view>
+          <view class="item2-input2">
+              <input bindconfirm="inputuserphone" placeholder="该手机号用于接受预约短信" class="item2-input2"/>
+          </view>
+      
+    </view>
+
+    
+
+    <view class="item3">
+          <view class="item3-text1">
+              <text>证件类型</text>
+          </view>
+          <view class="item3-picker1">
+              <picker range="{{certificates}}" value="{{index}}" bindchange="bindPickerChange">{{certificates[index]}}</picker>
+          </view>
+          <view class="item3-text2">
+              <text>证件号码</text>
+          </view>
+          <view class="item3-input1">
+              <input bindconfirm="inputcertificate" placeholder="请输入证件号" class="item3-input1"/>
+          </view>
+    </view>
+
+    <button type="primary" style="margin-top:50rpx;" bindtap="submittap">确定</button>
+
+
+</view>
+
+    

@@ -1,0 +1,31 @@
+<view class="container">
+    <view class="container1">
+         <view class="view1 selectlist">
+              <view class="text">
+                  选择业务类型：
+              </view>
+              <picker class="picker1" range="{{list}}" bindchange="pickertap">{{select}}</picker>
+         </view>
+         
+    </view>
+    <view class="container2">
+        <view class="view2" wx:for="{{companylist.name}}">
+            <view  class="titleview">
+              
+                <text class="titlename">{{companylist.name[index]}}</text>
+                <text class="titleinfo">地址：{{companylist.addr[index]}}</text>
+                <text class="titleinfo">电话：{{companylist.tel[index]}}</text>
+            </view>
+            <view class="buttom-view">
+                <view class="buttom2" data-tel="{{index}}" bindtap="teltap" hover-class="hover" hover-start-time="100" hover-stay-time="50">电话</view>
+                <view class="buttom1" data-bankapp="{{index}}" bindtap="appointtap" hover-class="hover" hover-start-time="100" hover-stay-time="50">立即预约</view> 
+            </view>
+        </view>
+
+
+    
+    </view>
+
+
+
+</view>

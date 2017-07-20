@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="container1">
+          <view class="view1">
+              <text>预约提交时间：2017-1-25</text>
+              <text>预约状态：成功</text>
+          </view>
+          <view class="view2">
+              <text>预约服务时间：{{appmonth}}月{{apptime}}</text>
+              <text>预约银行：{{appbank}}</text>
+              <text>预约服务：{{appserver}}</text>
+          </view>
+
+    </view>
+</view>
+

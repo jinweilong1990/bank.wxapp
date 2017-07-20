@@ -1,0 +1,52 @@
+
+<view class="container">  
+
+    <view class="container1">
+        <view class="item1">
+                <view id="0" class="{{id==0? 'on': 'item1_text'}}"  bindtap="swichNav">
+                     {{weeks[0]}} {{months[0]}}月 {{days[0]}}日
+                </view>
+                <view id="1" class="{{id==1? 'on': 'item1_text'}}"  bindtap="swichNav">
+                     {{weeks[1]}} {{months[1]}}月 {{days[1]}}日
+                </view>
+                <view id="2" class="{{id==2? 'on': 'item1_text'}}"  bindtap="swichNav">
+                     {{weeks[2]}} {{months[2]}}月 {{days[2]}}日
+                </view>
+                <view id="3" class="{{id==3? 'on': 'item1_text'}}"  bindtap="swichNav">
+                     {{weeks[3]}} {{months[3]}}月 {{days[3]}}日
+                </view>
+                <view id="4" class="{{id==4? 'on': 'item1_text'}}"  bindtap="swichNav">
+                     {{weeks[4]}} {{months[4]}}月 {{days[4]}}日
+                </view>
+                <view id="5" class="{{id==5? 'on': 'item1_text'}}"  bindtap="swichNav">
+                     {{weeks[5]}} {{months[5]}}月 {{days[5]}}日
+                </view>
+                <view id="6" class="{{id==6? 'on': 'item1_text'}}"  bindtap="swichNav">
+                     {{weeks[6]}} {{months[6]}}月 {{days[6]}}日
+                </view>
+          </view>
+
+
+      
+              
+          
+     </view>
+
+
+
+     <view class="container2" wx:if="{{select}}">
+                <view class="item2">
+                      <block wx:for="{{[0,1,2,3,4,5,6,7,8]}}"> 
+                          <view id="{{index}}" class="item2" bindtap="tapselect" data-Time="{{time[index]}}:00-{{time[index+1]}}:00">
+              {{time[index]}}:00-{{time[index+1]}}:00  剩余{{peoplenum[index]}}人     
+                          </view>
+                      </block>
+                </view>
+
+     </view>
+
+</view>
+
+
+
+ 

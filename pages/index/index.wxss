@@ -1,0 +1,68 @@
+.container{
+   background-color: white;
+   width: 750rpx;
+   height: 100vh;
+   display: felx;
+   flex-direction: column;
+   position: absolute;
+   flex-wrap: wrap;
+   align-items: center
+}
+.selection1{
+   background: yellow;
+   width: 750rpx;
+   height: 300rpx;
+}
+.useravatar{
+  position: absolute;
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50px;
+  top:65rpx;
+  left: 112.5rpx;
+}
+.userName{
+  position: absolute;
+  top:225rpx;
+  left:95rpx;
+  color: white;
+  font-weight: bold
+}
+.text1{
+  font-size: 40rpx;
+  position: absolute;
+  color: white;
+  right: 95rpx;
+  top:150rpx;
+}
+.selection2{
+  width: 750rpx;
+  height: 70rpx;
+  background-color: white;
+
+
+  }
+.headertitle{
+  font-size: 30rpx;
+  color: black;
+  text-align: center;
+  line-height:70rpx;
+  margin-left: 30rpx;
+}
+.selection3{
+  background-color: white;
+  width: 750rpx;
+  height: 300rpx;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  
+}
+
+.service_icon{
+  height: 300rpx;
+  width: 300rpx;
+  position: relative;
+  right: 20rpx;
+}
+

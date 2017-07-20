@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+
+    <view class="item selection1">
+
+        <image class="selection1" src="{{bg_icon}}" mode="aspectFill" ></image>
+        <image class="useravatar" src="{{userInfo.avatarUrl}}" ></image>
+        <text  class="userName">{{userInfo.nickName}}</text>
+        <text  class="text1" bindtap="appinfo" >我的网点预约</text>
+
+    </view>
+    <view class="item selection2">
+        <text class="headertitle" >网点预约</text> 
+    </view>
+ 
+    <view class="item selection3">
+    
+         <image class="service_icon" src="{{service_icon1}}"  bindtap="bankmap"></image>
+         <image class="service_icon" src="{{service_icon2}}" bindtap="bankmap1"></image>
+         <image class="service_icon" src="{{service_icon3}}" bindtap="bankmap2"></image>
+    </view>
+
+
+  
+
+
+
+
+</view>
+
+
+
+   
+
+
