@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/haveapp/haveapp",
+    "pages/search/search",
+    "pages/select/select",
+    "pages/appointment/appointment"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "银行微服务",
+    "navigationBarTextStyle": "black"
+  }
+}
